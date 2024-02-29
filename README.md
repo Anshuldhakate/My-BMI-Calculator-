@@ -10,4 +10,7 @@ This is a simple BMI (Body Mass Index) calculator developed in [language/framewo
 
 Features
 1. Calculate BMI based on height and weight inputs.
-2. Provide BMI category (underweight, normal weight, overweight, or obese). 
+2. Provide BMI category (underweight, normal weight, overweight, or obese).
+
+
+<img width="499" alt="home2" src="https://github.com/Anshuldhakate/My-BMI-Calculator-/assets/123949154/ecf4bd67-1a36-447f-a4f2-88f667d7956c">
