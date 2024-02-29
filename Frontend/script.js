@@ -13,7 +13,7 @@
     	            return;
     	        }
     	
-    	        const response = await fetch('/calculateBMI', {
+    	        const response = await fetch('https://bmi-backend-1.onrender.com/calculateBMI', {
     	            method: 'POST',
     	            headers: {
     	                'Content-Type': 'application/json'
@@ -24,7 +24,7 @@
     	        const data = await response.json();
     	
     	        if (response.ok) {
-    	            resultDiv.textContent = `BMI: ${data.bmi.toFixed(2)} - ${data.interpretation}`;
+    	            resultDiv.textContent = `BMI: ${data.bmi.toFixed(2)} Result: ${data.interpretation}`;
     	        } else {
     	            resultDiv.textContent = `Error: ${data.error}`;
     	        }
